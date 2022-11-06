@@ -47,7 +47,7 @@ public class Zadanko2 {
         // Scanner scanner = new Scanner(System.in);
 
         float x = scanner.nextFloat();
-        boolean check = (x < -4 | x >= 3 & x <= 10);
+        boolean check = (x < -4 || x >= 3 && x <= 10);
         System.out.println(check);
 
     }
